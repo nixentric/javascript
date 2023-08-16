@@ -26,3 +26,4 @@ Contohnya:
 
 </html>
 ```
+Di dalam tag ``<script>`` kita dapat menulis kode JavaScript. Dalam kasus ini, kode ``alert('Hello, world!');`` akan menampilkan kotak pesan (alert) dengan teks ``"Hello, world!"`` saat browser mengolah skrip tersebut.
