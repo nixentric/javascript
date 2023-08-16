@@ -27,3 +27,11 @@ Contohnya:
 </html>
 ```
 Di dalam tag ``<script>`` kita dapat menulis kode JavaScript. Dalam kasus ini, kode ``alert('Hello, world!');`` akan menampilkan kotak pesan (alert) dengan teks ``"Hello, world!"`` saat browser mengolah skrip tersebut.
+
+## Markup Modern
+
+``<script>`` memiliki beberapa atribut yang sudah jarang digunakan saat ini, tetapi masih bisa ditemui di kode-kode lama:
+
+**Pertama, atribut ``type``: ``<script type=…>``**
+
+Di masa lampau saat stardar HTML masih menggunakan HTML4, atribut ``type`` di perlukan. Biasanya bentuk penggunaannya seperti ini ``<script type="text/javascript">``. Tapi, saat ini, itu sudah tidak diperlukan lagi. Juga, di standar HTML modern, makna atribut ini juga telah berubah. Yang mana, sekarang atribut ini digunakan saat menggunakan JavaScript Modules (akan kita bahas di lain kesempatan pada pembelajaran tingkat lanjut).
