@@ -61,7 +61,7 @@ Jika kamu memiliki banyak kode JavaScript, akan lebih baik membuatkan file terpi
 
 Dan untuk menautkan skrip ke dalam HTML gunakan atribut ``src``:
 
-```
+```html
 <script src="/path/to/script.js"></script>
 ```
 
