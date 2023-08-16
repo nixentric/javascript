@@ -34,4 +34,4 @@ Di dalam tag ``<script>`` kita dapat menulis kode JavaScript. Dalam kasus ini, k
 
 **Pertama, atribut ``type``: ``<script type=…>``**
 
-Di masa lampau, saat stardar HTML masih menggunakan HTML4, atribut ``type`` masih wajib digunakan. Biasanya bentuk penggunaannya seperti ini ``<script type="text/javascript">``. Tapi, saat ini, itu sudah tidak diperlukan lagi. Juga, di standar HTML modern, makna atribut ini juga telah berubah. Dan sekarang, atribut ``<type>`` digunakan saat kita ingin menggunakan JavaScript Modules (akan dibahas di lain kesempatan pada pembelajaran tingkat lanjut).
+Di masa lampau, saat stardar HTML masih menggunakan HTML4, atribut ``type`` masih wajib digunakan. Biasanya digunakan dalam bentuk seperti ini ``<script type="text/javascript">``. Tapi, saat ini, itu sudah tidak diperlukan lagi. Juga, di standar HTML modern, makna atribut ini juga telah berubah. Dan sekarang, atribut ``<type>`` digunakan saat kita ingin menggunakan JavaScript Modules (akan dibahas di lain kesempatan pada pembelajaran tingkat lanjut).
