@@ -4,7 +4,7 @@ Pada bagian ini kita akan mempelajari inti JavaScript.
 
 ## "script" Tag
 
-Program JavaScript dapat disisipkan hampir di mana saja di dalam dokumen HTML dengan menggunakan tag ``<script>.
+Program JavaScript dapat disisipkan hampir di mana saja di dalam dokumen HTML dengan menggunakan tag ``<script>``.
 
 Contohnya:
 
