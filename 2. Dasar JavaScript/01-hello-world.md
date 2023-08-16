@@ -49,7 +49,7 @@ Di dalam buku dan panduan jadul, kamu mungkin sering menemukan skrip comment di 
     ...
 //--></script>
 ```
-Pada JavaScript modern, trik ini sudah tidak digunakan lagi. Awalnya trik ini digunakan untuk menyembunyikan kode JavaScript dari peramban (browser) yang sudah sangat tua dan tidak memiliki pemahaman tentang cara memproses tag <script>. Di masa lalu, beberapa peramban mungkin tidak sepenuhnya memahami atau mendukung tag <script>, dan ini bisa menyebabkan masalah dalam menjalankan kode JavaScript di dalamnya.
+Pada JavaScript modern, trik ini sudah tidak digunakan lagi. Awalnya trik ini digunakan untuk menyembunyikan kode JavaScript dari peramban (browser) yang sudah sangat tua dan tidak memiliki pemahaman tentang cara memproses tag <script>. Di masa lalu, beberapa peramban mungkin tidak sepenuhnya memahami atau mendukung tag ``<script>``, dan ini bisa menyebabkan masalah dalam menjalankan kode JavaScript di dalamnya.
 
 Dengan menggunakan komentar seperti ``<!--`` dan ``-->``, tujuan awalnya adalah membuat kode JavaScript tetap tidak terlihat oleh peramban-peramban tua tersebut. Kode JavaScript akan diapit oleh komentar ini sehingga peramban yang tidak tahu bagaimana memproses tag <script> akan mengabaikan kode di dalamnya.
 
