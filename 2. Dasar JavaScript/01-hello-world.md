@@ -32,15 +32,15 @@ Di dalam tag ``<script>`` kita dapat menulis kode JavaScript. Dalam kasus ini, k
 
 ``<script>`` memiliki beberapa atribut yang sudah jarang digunakan saat ini, tetapi masih bisa ditemui di kode-kode lama:
 
-### **Pertama, atribut ``type``: ``<script type=…>``**
+### Pertama, atribut ``type``: ``<script type=…>``
 
 Di masa lampau, saat stardar HTML masih menggunakan HTML4, atribut ``type`` masih wajib digunakan. Biasanya digunakan dalam bentuk seperti ini ``<script type="text/javascript">``. Tapi, saat ini, itu sudah tidak diperlukan lagi. Juga, di standar HTML modern, makna atribut ini juga telah berubah. Dan sekarang, atribut ``<type>`` digunakan saat kita ingin menggunakan JavaScript Modules (akan dibahas di lain kesempatan pada pembelajaran tingkat lanjut).
 
-### **Kedua, atribut ``language``: ``<script language=…>``**
+### Kedua, atribut ``language``: ``<script language=…>``
 
 Atribut ini digunakan untuk mendeklarasikan bahasa yang digunakan script. Atribut ini agak tidak masuk akal untuk digunakan karena JavaScript merupakan bahasa bawaan dari tag ``<script>``. Jadi, atribut ini tidak perlu dipakai.
 
-### **Skrip Pembuka & Penutup Komentar (Comment)**
+### Skrip Pembuka & Penutup Komentar (Comment)
 
 Di dalam buku dan panduan jadul, kamu mungkin sering menemukan skrip comment di dalam ``<script>``, seperti ini:
 
@@ -55,4 +55,13 @@ Dengan menggunakan komentar seperti ``<!--`` dan ``-->``, tujuan awalnya adalah 
 
 Namun, pada peramban modern yang telah dirilis dalam 15 tahun terakhir, masalah ini sudah tidak ada lagi. Peramban modern mampu memahami tag ``<script>`` dengan baik, dan kode JavaScript di dalamnya akan dieksekusi tanpa masalah. Karena itu, trik komentar semacam ini tidak diperlukan lagi dalam JavaScript modern.
 
+## Skrip External
+
+Jika kamu memiliki banyak kode JavaScript, akan lebih baik membuatkan file terpisah dari HTML.
+
+Dan untuk menautkan skrip ke dalam HTML gunakan atribut ``src``:
+
+```
+<script src="/path/to/script.js"></script>
+```
 
